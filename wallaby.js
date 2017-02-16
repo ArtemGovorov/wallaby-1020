@@ -15,7 +15,7 @@ module.exports = function () {
 
     setup: function (wallaby) {
       const path = require('path')
-      require(path.resolve(wallaby.localProjectDir, 'test/specHelper'))
+      require('./test/specHelper');
     }
   };
 };
