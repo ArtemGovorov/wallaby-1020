@@ -2,7 +2,7 @@ module.exports = function () {
   return {
     files: [
       'lib/**/*.js',
-      'specHelper.js'
+      'test/specHelper.js'
     ],
 
     tests: [
@@ -13,8 +13,9 @@ module.exports = function () {
       type: 'node'
     },
 
-    setup: function () {
-      require('./specHelper');
+    setup: function (wallaby) {
+      const path = require('path')
+      require(path.resolve(wallaby.localProjectDir, 'test/specHelper'))
     }
   };
 };
