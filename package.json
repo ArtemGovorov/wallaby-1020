@@ -1,0 +1,22 @@
+{
+  "name": "wallaby-1020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtemGovorov/wallaby-1020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtemGovorov/wallaby-1020/issues"
+  },
+  "homepage": "https://github.com/ArtemGovorov/wallaby-1020#readme",
+  "devDependencies": {
+    "app-module-path": "^2.2.0"
+  }
+}
